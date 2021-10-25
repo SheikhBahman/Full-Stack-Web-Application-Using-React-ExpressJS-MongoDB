@@ -1,0 +1,88 @@
+.row-header {
+    margin: 0px auto;
+    padding: 0px auto;
+}
+
+.row-content {
+    margin: 0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height: 400px;
+}
+
+.footer {
+    background-color: #7c0414;
+    margin: 0px auto;
+    padding: 20px 0px 20px 0px;
+    color: floralwhite;
+}
+
+.jumbotron {
+    padding: 40px 30px 40px 30px;
+    margin: 0px auto;
+    background: #7c0414;
+    color: floralwhite;
+}
+
+.button {
+    color: #5279f8;
+    background-color: transparent;
+}
+
+.imageBack {
+    filter: sepia(100%) saturate(200%) brightness(120%) hue-rotate(180deg);
+}
+
+address {
+    font-size: 80%;
+    margin: 0px;
+    color: #0f0f0f;
+}
+
+.navbar-dark {
+    background-color: #283747;
+}
+
+.page-enter {
+    opacity: 0.01;
+    transform: translateX(-100%);
+}
+
+.page-enter-active {
+    opacity: 1;
+    transform: translateX(0%);
+    transition: all 300ms ease-in;
+}
+
+.page-exit {
+    opacity: 1;
+    transform: translateX(0%);
+}
+
+.page-exit-active {
+    opacity: 0.01;
+    transform: translateX(100%);
+    transition: all 300ms ease-out;
+}
+
+.serverLogs {
+    background-color: rgb(2, 4, 121);
+    color: rgb(4, 180, 57);
+    width: 100%;
+    height: 200px;
+    border: 1px dotted black;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.aboutmeImage {
+    width: 100px;
+    height: 100px;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
