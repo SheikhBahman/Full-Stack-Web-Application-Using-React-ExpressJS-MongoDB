@@ -8,7 +8,7 @@
 
 <a href="http://ec2-54-172-32-243.compute-1.amazonaws.com:3000/home" target="_blank">Visit the app</a>
 
-# Authors
+# Author
 * Bahman Sheikh
 
 # Programming Language
